@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github" fetch="git://github.com" />
+	<remote name="yoctoproject" fetch="git://git.yoctoproject.org" />
+	<remote name="openembedded" fetch="git://git.openembedded.org" />
+	<remote name="linaro" fetch="git://git.linaro.org" />
+
+	<default remote="github" revision="warrior" sync-j="8" sync-c="true" />
+
+	<!-- Yocto Layers -->
+	<project remote="yoctoproject" name="poky" path="poky" revision="0e392026ffefee098a890c39bc3ca1f697bacb52" />
+	<project remote="openembedded" name="meta-openembedded" path="meta-openembedded" revision="6fa72d587aab8e9d56d67a2552eb9cfbe25c86d2" />
+	<project remote="linaro" name="openembedded/meta-linaro" path="meta-linaro" revision="c38fb78fd1eb3883f2a8199c2d21358f4a412fb4" />
+	<project name="renesas-rcar/meta-renesas" path="meta-renesas" upstream="warrior-dev" revision="1b33df50c1f0c3848deb65b636d5134ed0d0d328" />
+</manifest>
