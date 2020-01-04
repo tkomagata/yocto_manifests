@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github" fetch="git://github.com" />
+	<remote name="yoctoproject" fetch="git://git.yoctoproject.org" />
+	<remote name="openembedded" fetch="git://git.openembedded.org" />
+	<remote name="linaro" fetch="git://git.linaro.org" />
+
+	<default remote="github" revision="zeus" sync-j="8" sync-c="true" />
+
+	<!-- Yocto Layers -->
+	<project remote="yoctoproject" name="poky" path="poky" />
+	<project remote="openembedded" name="meta-openembedded" path="meta-openembedded" />
+	<project remote="linaro" name="openembedded/meta-linaro" path="meta-linaro" />
+	<project remote="github" name="renesas-rcar/meta-renesas" revision="zeus-dev" path="meta-renesas" />
+</manifest>
