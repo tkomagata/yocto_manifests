@@ -10,6 +10,6 @@
 	<project remote="yoctoproject" name="poky" path="poky" revision="94f6b31befda5c496f65e863a6f8152b42d7ebf0" />
 	<project remote="yoctoproject" name="meta-virtualization" path="meta-virtualization" revision="f4262ab75d36a06c528cc1630b48b817fb0acf8f" />
 	<project remote="openembedded" name="meta-openembedded" path="meta-openembedded" revision="1bfaa2e63a184e21a2db5c286444828d5948a8b4" />
-	<project name="renesas-rcar/meta-renesas" path="meta-renesas" upstream="zeus-dev" revision="9a58b78a5c2960332b6ed4b02a6d8d5c606fa3e5" />
-	<project name="tkomagata/meta-docker" path="meta-docker" revision="a954894da664d0168217a98e42dbc4c699a14bd3" />
+	<project name="renesas-rcar/meta-renesas" path="meta-renesas" upstream="zeus-dev" revision="32e34de56a7962efa45725b3db5838b07adca06f" />
+	<project name="tkomagata/meta-docker" path="meta-docker" revision="90d2846b4abca3848af82f271b48a7ab23448127" />
 </manifest>
