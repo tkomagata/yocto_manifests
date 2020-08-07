@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github" fetch="git://github.com" />
+	<remote name="yoctoproject" fetch="git://git.yoctoproject.org" />
+	<remote name="openembedded" fetch="git://git.openembedded.org" />
+
+	<default remote="github" revision="dunfell" sync-j="8" sync-c="true" />
+
+	<!-- Yocto Layers -->
+	<project remote="yoctoproject" name="poky" path="poky" revision="5d47cdf448b6cff5bb7cc5b0ba0426b8235ec478" />
+	<project remote="yoctoproject" name="meta-virtualization" path="meta-virtualization" revision="ffd787fb850e5a1657a01febc8402c74832147a1" />
+	<project remote="openembedded" name="meta-openembedded" path="meta-openembedded" revision="b5f510e48080b6dc710ff4800feb90ef679c5456" />
+	<project name="renesas-rcar/meta-renesas" path="meta-renesas" upstream="dunfell-dev" revision="6c12c043f93966ec704d3a19765fbe200d42715d" />
+	<project name="tkomagata/meta-docker" path="meta-docker" revision="22c0d58b185686f8569d3607b1be3121f2b26eed" />
+</manifest>
