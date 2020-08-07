@@ -12,6 +12,6 @@
 	<project remote="yoctoproject" name="meta-virtualization" path="meta-virtualization" revision="b704c689b67639214b9568a3d62e82df27e9434f" />
 	<project remote="openembedded" name="meta-openembedded" path="meta-openembedded" revision="352531015014d1957d6444d114f4451e241c4d23" />
 	<project remote="linaro" name="openembedded/meta-linaro" path="meta-linaro" revision="75dfb67bbb14a70cd47afda9726e2e1c76731885" />
-	<project name="renesas-rcar/meta-renesas" path="meta-renesas" revision="ad3a8cfee5b6a6fab17cf1c6e5af851eaec75bd7" />
-	<project name="tkomagata/meta-docker" path="meta-docker" revision="90468389db94ba946df3784a7da59075dd5faee9" />
+	<project name="renesas-rcar/meta-renesas" path="meta-renesas" revision="70d47c56f04a7ee78597770b88de68a59c56a4aa" />
+	<project name="tkomagata/meta-docker" path="meta-docker" revision="2693e0e0978e2425f8f7fd8f5e5da5e846fc9243" />
 </manifest>
