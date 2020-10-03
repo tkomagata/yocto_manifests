@@ -15,5 +15,5 @@
 	<project name="renesas-rcar/meta-renesas" path="meta-renesas" revision="21d840bc10492ea2f0f45f01df526cbfdb7735cf" />
 	<project name="tkomagata/meta-docker" path="meta-docker" revision="72b89595a50133695f011cabfcec27bc9652abb9" />
 	<project name="meta-rust/meta-rust" path="meta-rust" revision="master" />
-	<project name="tkomagata/meta-iotedge" path="meta-iotedge" revision="1d902c2bd56d33b2ec086d3fa5aa38803260114b" />
+	<project name="tkomagata/meta-iotedge" path="meta-iotedge" revision="b13adb5b56f599b64a7b880a892733774cc74fa4" />
 </manifest>
