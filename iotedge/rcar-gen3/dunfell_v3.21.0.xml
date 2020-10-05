@@ -12,6 +12,6 @@
 	<project remote="openembedded" name="meta-openembedded" path="meta-openembedded" revision="b5f510e48080b6dc710ff4800feb90ef679c5456" />
 	<project name="renesas-rcar/meta-renesas" path="meta-renesas" upstream="dunfell-dev" revision="6c12c043f93966ec704d3a19765fbe200d42715d" />
 	<project name="tkomagata/meta-docker" path="meta-docker" revision="22c0d58b185686f8569d3607b1be3121f2b26eed" />
-	<project name="meta-rust/meta-rust" path="meta-rust" revision="master" />
-	<project name="tkomagata/meta-iotedge" path="meta-iotedge" revision="371904b4ca7a1afd445199ff2899a8b2db8d23b4" />
+	<project name="meta-rust/meta-rust" path="meta-rust" revision="e4d25b98083bcecb94df6ee189a165d63ede7f3d" />
+	<project name="tkomagata/meta-iotedge" path="meta-iotedge" revision="6a0328df3b0339ea8d0fb7e979d3d9ae822a9096" />
 </manifest>
