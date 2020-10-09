@@ -13,6 +13,6 @@
 	<project name="renesas-rcar/meta-renesas" path="meta-renesas" upstream="dunfell-dev" revision="072c0f8648a3e19ff145508d8d431308363a699c" />
 	<project name="tkomagata/meta-docker" path="meta-docker" revision="efae1ac83c4dcab664c76373d7e4005651e197d4" />
 	<project name="meta-rust/meta-rust" path="meta-rust" revision="e4d25b98083bcecb94df6ee189a165d63ede7f3d" />
-	<project name="tkomagata/meta-iotedge" path="meta-iotedge" revision="d830da8f95044c012d94a06b88ee59d671518926" />
+	<project name="tkomagata/meta-iotedge" path="meta-iotedge" revision="dfceec91752aa40310fd90e2ec591b5982397e78" />
 
 </manifest>
