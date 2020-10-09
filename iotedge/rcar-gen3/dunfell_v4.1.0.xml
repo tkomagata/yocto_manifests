@@ -11,8 +11,8 @@
 	<project remote="yoctoproject" name="meta-virtualization" path="meta-virtualization" revision="ff997b6b3ba800978546098ab3cdaa113b6695e1" />
 	<project remote="openembedded" name="meta-openembedded" path="meta-openembedded" revision="654ad8bea49f142d20b2b96c0dd44810a6be233a" />
 	<project name="renesas-rcar/meta-renesas" path="meta-renesas" upstream="dunfell-dev" revision="072c0f8648a3e19ff145508d8d431308363a699c" />
-	<project name="tkomagata/meta-docker" path="meta-docker" revision="8b169e57ec16b1ab8a03304b603be090bc7ea47a" />
+	<project name="tkomagata/meta-docker" path="meta-docker" revision="efae1ac83c4dcab664c76373d7e4005651e197d4" />
 	<project name="meta-rust/meta-rust" path="meta-rust" revision="e4d25b98083bcecb94df6ee189a165d63ede7f3d" />
-	<project name="tkomagata/meta-iotedge" path="meta-iotedge" revision="4993ea93ffcaac98fc1d0aa9256b4d9b37f4b7ae" />
+	<project name="tkomagata/meta-iotedge" path="meta-iotedge" revision="d830da8f95044c012d94a06b88ee59d671518926" />
 
 </manifest>
