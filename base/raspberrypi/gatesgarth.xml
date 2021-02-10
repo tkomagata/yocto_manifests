@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="yoctoproject" fetch="git://git.yoctoproject.org" />
+	<remote name="openembedded" fetch="git://git.openembedded.org" />
+
+	<default remote="yoctoproject" revision="gatesgarth" sync-j="8" sync-c="true" />
+
+	<!-- Yocto Layers -->
+	<project name="poky" path="poky" />
+	<project remote="openembedded" name="meta-openembedded" path="meta-openembedded" />
+	<project name="meta-raspberrypi" path="meta-raspberrypi" />
+</manifest>
