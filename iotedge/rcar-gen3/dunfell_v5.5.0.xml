@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github" fetch="git://github.com" />
+	<remote name="yoctoproject" fetch="git://git.yoctoproject.org" />
+	<remote name="openembedded" fetch="git://git.openembedded.org" />
+
+	<default remote="github" revision="dunfell" sync-j="8" sync-c="true" />
+
+	<!-- Yocto Layers -->
+	<project remote="yoctoproject" name="poky" path="poky" revision="6ebb33bdaccaeadff0c85aab27acf35723df00d8" />
+	<project remote="yoctoproject" name="meta-virtualization" path="meta-virtualization" revision="92cd3467502bd27b98a76862ca6525ce425a8479" />
+	<project remote="openembedded" name="meta-openembedded" path="meta-openembedded" revision="c38d2a74f762a792046f3d3c377827b08aade513" />
+	<project name="renesas-rcar/meta-renesas" path="meta-renesas" revision="0fe77668f5d9a31a5d10449988c3d8fb8dc475c5" />
+	<project name="tkomagata/meta-docker" path="meta-docker" revision="1ca1b5caf6f373dcc49db82dce50f4d8ab9f25cd" />
+	<project name="meta-rust/meta-rust" path="meta-rust" revision="7ff669d8cedd83a2d3efb73073a63b0a7efffddc" />
+	<project name="tkomagata/meta-iotedge" path="meta-iotedge" revision="06a968a4a662dc5c26aac8d72738767ed72aef52" />
+</manifest>
