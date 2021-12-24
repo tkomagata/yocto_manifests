@@ -13,7 +13,7 @@
 	<project remote="openembedded" name="meta-openembedded" path="meta-openembedded" revision="c38d2a74f762a792046f3d3c377827b08aade513" />
 	<project name="aws/meta-aws" path="meta-aws" revision="09a9e8845e1c0685d279a5fec12dc2764e67675c" />
 	<project name="renesas-rcar/meta-renesas" path="meta-renesas" revision="0fe77668f5d9a31a5d10449988c3d8fb8dc475c5" />
-	<project name="renesas-rcar/meta-renesas-ccpf" path="meta-renesas-ccpf" revision="2e264bba92128dd6c3be68068673b1fd2d3e36e8" />
+	<project name="renesas-rcar/meta-renesas-ccpf" path="meta-renesas-ccpf" revision="b49b57d6e68d5cda70aefbed34e06903484c573b" />
 	<project name="tkomagata/meta-docker" path="meta-docker" revision="1ca1b5caf6f373dcc49db82dce50f4d8ab9f25cd" />
 	<project name="tkomagata/yocto_templateconf" path="yocto_templateconf" revision="0bd105ad8247bfdd4835c5e90ee4eab6242f9607" />
 </manifest>
