@@ -8,7 +8,7 @@
 
 	<!-- Yocto Layers -->
 	<project remote="yoctoproject" name="poky" path="poky" revision="6ebb33bdaccaeadff0c85aab27acf35723df00d8" />
-	<project remote="yoctoproject" name="meta-virtualization" path="meta-virtualization" revision="92cd3467502bd27b98a76862ca6525ce425a8479" />
+	<project remote="yoctoproject" name="meta-virtualization" path="meta-virtualization" revision="c4f156fa93b37b2428e09ae22dbd7f5875606f4d" />
 	<project remote="yoctoproject" name="meta-java" path="meta-java" revision="62d6c0653ad69e14c21db2d4482e578400116a1b" />
 	<project remote="openembedded" name="meta-openembedded" path="meta-openembedded" revision="c38d2a74f762a792046f3d3c377827b08aade513" />
 	<project name="aws/meta-aws" path="meta-aws" revision="09a9e8845e1c0685d279a5fec12dc2764e67675c" />
