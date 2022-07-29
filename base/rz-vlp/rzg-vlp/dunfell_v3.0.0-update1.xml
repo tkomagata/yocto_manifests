@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github" fetch="https://github.com" />
+	<remote name="yoctoproject" fetch="git://git.yoctoproject.org" />
+	<remote name="openembedded" fetch="git://git.openembedded.org" />
+
+	<default remote="github" revision="dunfell" sync-j="8" sync-c="true" />
+
+	<!-- Yocto Layers -->
+	<project remote="yoctoproject" name="poky" path="poky" revision="bba323389749ec3e306509f8fb12649f031be152" />
+	<project remote="yoctoproject" name="meta-gplv2" path="meta-gplv2" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" />
+	<project remote="yoctoproject" name="meta-virtualization" path="meta-virtualization" revision="c5f61e547b90aa8058cf816f00902afed9c96f72" />
+	<project remote="openembedded" name="meta-openembedded" path="meta-openembedded" revision="ec978232732edbdd875ac367b5a9c04b881f2e19" />
+	<project name="renesas-rz/meta-renesas" path="meta-renesas" revision="4aa5c708036f2e6408a8af673fe15e51247378f6" />
+	<project name="meta-qt5/meta-qt5" path="meta-qt5" revision="c1b0c9f546289b1592d7a895640de103723a0305" />
+</manifest>
