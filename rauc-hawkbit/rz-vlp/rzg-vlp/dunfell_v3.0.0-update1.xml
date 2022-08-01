@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Yocto Layers -->
+	<include name="base/rz-vlp/rzg-vlp/dunfell_v3.0.0-update1.xml" />
+	<project remote="github" name="rauc/meta-rauc" path="meta-rauc" revision="2fe17af894b82cd2b0d0203478d4924fa916b440" />
+	<project remote="github" name="tkomagata/meta-rauc-community" path="meta-rauc-community" revision="768cfa037b3402784fc6eef2a13f0434e8665a49" />
+	<project remote="github" name="tkomagata/yocto_templateconf" path="yocto_templateconf" />
+</manifest>
