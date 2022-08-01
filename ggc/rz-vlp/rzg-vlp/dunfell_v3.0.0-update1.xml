@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Yocto Layers -->
+	<include name="base/rz-vlp/rzg-vlp/dunfell_v3.0.0-update1.xml" />
+	<project remote="yoctoproject" name="meta-java" path="meta-java" revision="eeb136c64ecaa364d4e332d0182865dc65f2a83b" />
+	<project remote="github" name="aws/meta-aws" path="meta-aws" revision="9979cfa676105cb68cfadfdaeabf044d7c919319" />
+	<project remote="github" name="tkomagata/yocto_templateconf" path="yocto_templateconf" />
+</manifest>
