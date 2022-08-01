@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Yocto Layers -->
+	<include name="base/rz-vlp/rzg-vlp/dunfell_v3.0.0-update1.xml" />
+	<project remote="github" name="meta-rust/meta-rust" path="meta-rust" revision="7ff669d8cedd83a2d3efb73073a63b0a7efffddc" />
+	<project remote="github" name="tkomagata/meta-iotedge" path="meta-iotedge" revision="e9f1e6373b3e2017aff2eeceebb3d267fd10f3a8" />
+</manifest>
