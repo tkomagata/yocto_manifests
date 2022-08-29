@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="yoctoproject" fetch="git://git.yoctoproject.org" />
+	<remote name="openembedded" fetch="git://git.openembedded.org" />
+	<remote name="github" fetch="https://github.com" />
+
+	<default remote="yoctoproject" revision="dunfell" sync-j="8" sync-c="true" />
+
+	<!-- Yocto Layers -->
+	<project name="poky" path="poky" revison="afd213cc8e71976f2e52177927563a6868a2bed7" />
+	<project name="meta-raspberrypi" path="meta-raspberrypi" revision="2081e1bb9a44025db7297bfd5d024977d42191ed" />
+	<project remote="openembedded" name="meta-openembedded" path="meta-openembedded" revision="f22bf6efaae61a8fd9272be64e7d75223c58922e" />
+	<project remote="github" name="rauc/meta-rauc" path="meta-rauc" revision="2fe17af894b82cd2b0d0203478d4924fa916b440" />
+	<project remote="github" name="tkomagata/meta-rauc-community" path="meta-rauc-community" revision="288cd6972bf11d422e73a162ed62c227fedce2bc" />
+</manifest>

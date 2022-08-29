@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github" fetch="https://github.com" />
+
+	<!-- Yocto Layers -->
+	<include name="base/raspberrypi/dunfell.xml" />
+	<project remote="github" name="rauc/meta-rauc" path="meta-rauc" />
+	<project remote="github" name="rauc/meta-rauc-community" path="meta-rauc-community" />
+</manifest>
